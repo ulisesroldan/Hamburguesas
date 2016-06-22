@@ -12,6 +12,7 @@
 		E1AB65F11D166017000F8C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AB65EF1D166017000F8C29 /* Main.storyboard */; };
 		E1AB65F31D166017000F8C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AB65F21D166017000F8C29 /* Assets.xcassets */; };
 		E1AB65F61D166017000F8C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AB65F41D166017000F8C29 /* LaunchScreen.storyboard */; };
+		E1AB66001D1662B4000F8C29 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB65FF1D1662B4000F8C29 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E1AB65F21D166017000F8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AB65F51D166017000F8C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1AB65F71D166018000F8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AB65FD1D166259000F8C29 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		E1AB65FF1D1662B4000F8C29 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +57,24 @@
 		E1AB65EA1D166017000F8C29 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				E1AB65FE1D16625F000F8C29 /* playgrounds */,
 				E1AB65EB1D166017000F8C29 /* AppDelegate.swift */,
 				E1AB65ED1D166017000F8C29 /* ViewController.swift */,
 				E1AB65EF1D166017000F8C29 /* Main.storyboard */,
 				E1AB65F21D166017000F8C29 /* Assets.xcassets */,
 				E1AB65F41D166017000F8C29 /* LaunchScreen.storyboard */,
 				E1AB65F71D166018000F8C29 /* Info.plist */,
+				E1AB65FF1D1662B4000F8C29 /* Datos.swift */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		E1AB65FE1D16625F000F8C29 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB65FD1D166259000F8C29 /* MyPlayground.playground */,
+			);
+			name = playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			files = (
 				E1AB65EE1D166017000F8C29 /* ViewController.swift in Sources */,
 				E1AB65EC1D166017000F8C29 /* AppDelegate.swift in Sources */,
+				E1AB66001D1662B4000F8C29 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
